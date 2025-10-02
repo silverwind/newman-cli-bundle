@@ -1,0 +1,30 @@
+{
+  "name": "newman-cli-bundle",
+  "version": "1.0.3",
+  "description": "Bundled version of newman",
+  "author": "silverwind",
+  "repository": "silverwind/newman-cli-bundle",
+  "license": "BSD-2-Clause",
+  "bin": {
+    "newman": "dist/newman.js",
+    "newman-cli-bundle": "dist/newman.js"
+  },
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "eslint": "9.36.0",
+    "eslint-config-silverwind": "105.2.2",
+    "newman": "6.2.1",
+    "tsdown": "0.15.6",
+    "tsdown-config-silverwind": "1.4.0",
+    "typescript": "5.9.3",
+    "typescript-config-silverwind": "11.0.0",
+    "updates": "16.7.4",
+    "versions": "13.2.1"
+  }
+}
