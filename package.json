@@ -1,6 +1,6 @@
 {
   "name": "newman-cli-bundle",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Bundled version of newman",
   "author": "silverwind",
   "repository": "silverwind/newman-cli-bundle",
