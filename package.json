@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "eslint": "9.39.2",
-    "eslint-config-silverwind": "118.0.1",
+    "eslint-config-silverwind": "120.1.2",
     "newman": "6.2.2",
     "tsdown": "0.20.1",
     "tsdown-config-silverwind": "1.7.3",
