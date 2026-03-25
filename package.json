@@ -10,6 +10,7 @@
     "newman-cli-bundle": "dist/newman.js"
   },
   "type": "module",
+  "sideEffects": false,
   "files": [
     "dist"
   ],
