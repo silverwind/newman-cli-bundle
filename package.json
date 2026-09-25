@@ -3,7 +3,10 @@
   "version": "1.0.4",
   "description": "Bundled version of newman",
   "author": "silverwind",
-  "repository": "silverwind/newman-cli-bundle",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silverwind/newman-cli-bundle.git"
+  },
   "license": "BSD-2-Clause",
   "bin": {
     "newman": "dist/newman.js",
