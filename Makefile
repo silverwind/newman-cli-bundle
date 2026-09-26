@@ -46,5 +46,5 @@ update-actions: node_modules
 	pnpm exec updates -u -M actions
 
 .PHONY: patch minor major
-patch minor major: node_modules lint test
+patch minor major: node_modules lint test build
 	pnpm exec versions -R $@ package.json
