@@ -6,8 +6,7 @@
 ## Usage
 
 ```sh
-pnpm add -D newman-cli-bundle
-pnpm exec newman run collection.json
+pnpm dlx newman-cli-bundle run collection.json
 ```
 
 © [silverwind](https://github.com/silverwind), distributed under BSD licence
